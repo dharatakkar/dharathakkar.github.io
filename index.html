@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Corporate office interiors | Dhara Thakkar</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --cream:#F5F0E8;--warm-white:#FAF8F4;--sand:#E8DDD0;--clay:#B8916A;
+  --oak:#7A5535;--espresso:#221510;--charcoal:#3A3530;--muted:#7A6E66;
+  --border:rgba(139,106,69,.18);--accent:#C4965A;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:var(--warm-white);color:var(--charcoal);line-height:1.6}
+.topbar{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;
+  padding:20px 6vw;background:rgba(250,248,244,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.logo{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--espresso);text-decoration:none}
+.logo span{font-style:italic;color:var(--clay)}
+.topnav{display:flex;gap:28px;align-items:center}
+.topnav a{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s}
+.topnav a:hover,.topnav a.active{color:var(--espresso)}
+.topnav a.back{color:var(--clay)}
+.hero{padding:90px 6vw 60px;max-width:1200px;margin:0 auto}
+.sec-label{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--clay);margin-bottom:20px}
+h1{font-family:'Cormorant Garamond',serif;font-size:clamp(38px,4.4vw,60px);font-weight:300;color:var(--espresso);line-height:1.08;margin-bottom:26px}
+h1 em{font-style:italic;color:var(--clay)}
+.hero p{font-size:14px;line-height:1.9;color:var(--muted);max-width:640px}
+.meta{display:flex;flex-wrap:wrap;gap:36px;margin-top:36px;padding-top:26px;border-top:1px solid var(--border)}
+.meta div{min-width:120px}
+.meta .k{font-size:9px;letter-spacing:.2em;text-transform:uppercase;color:var(--clay);margin-bottom:5px}
+.meta .v{font-size:13px;color:var(--charcoal)}
+.block{max-width:1200px;margin:0 auto;padding:50px 6vw}
+.block+.block{border-top:1px solid var(--border)}
+.block-head{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-bottom:38px;align-items:start}
+h2{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,2.6vw,36px);font-weight:300;color:var(--espresso);line-height:1.15}
+h2 .num{font-size:15px;color:var(--clay);vertical-align:top;margin-right:10px;font-style:italic}
+.block-head p{font-size:13px;line-height:1.85;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tag{font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--oak);
+  border:1px solid var(--border);padding:6px 12px;background:var(--cream)}
+.imgs{display:grid;gap:14px}
+.imgs img{width:100%;display:block;border:1px solid var(--border);background:var(--sand)}
+.imgs figcaption{font-size:11px;color:var(--muted);letter-spacing:.04em;margin-top:8px}
+.imgs figure{margin:0}
+.two{grid-template-columns:1fr 1fr}
+@media(max-width:760px){.two{grid-template-columns:1fr}.block-head{grid-template-columns:1fr}}
+.cta{max-width:1200px;margin:0 auto;padding:70px 6vw 90px;text-align:center;border-top:1px solid var(--border)}
+.cta h3{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,2.4vw,34px);font-weight:300;color:var(--espresso);margin-bottom:14px}
+.cta p{font-size:13px;color:var(--muted);max-width:520px;margin:0 auto 28px}
+.btn{display:inline-block;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--warm-white);
+  background:var(--espresso);padding:15px 34px;text-decoration:none;transition:background .25s;margin:0 8px 10px}
+.btn:hover{background:var(--oak)}
+.btn.ghost{background:transparent;color:var(--clay);border:1px solid var(--clay)}
+.btn.ghost:hover{background:var(--clay);color:var(--warm-white)}
+footer{padding:34px 6vw;border-top:1px solid var(--border);display:flex;justify-content:space-between;
+  font-size:11px;color:var(--muted);letter-spacing:.06em}
+footer a{color:var(--clay);text-decoration:none}
+@media(max-width:520px){.topbar{flex-wrap:wrap;gap:10px;padding:14px 5vw}.topnav{gap:16px;flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<div class="topbar">
+  <a class="logo" href="index.html">Dhara <span>Thakkar</span></a>
+  <nav class="topnav">
+    <a href="index.html" class="back">&larr; Home</a>
+    <a href="corporate.html" class="active">Corporate</a>
+    <a href="internship.html">Internship</a>
+    <a href="academic.html">Academic</a>
+  </nav>
+</div>
+<header class="hero">
+  <div class="sec-label">Professional Work &middot; Commercial</div>
+  <h1>Corporate office <em>interiors</em></h1>
+  <p>A full corporate campus fit-out for Care Group: executive offices, a manager's cabin, individual working cabins, and a second-floor conference and recreation hub. I carried the project from measured drawings of the existing structure, through space planning, 3D visualization, and material palette presentations, to daily site supervision and weekly client reviews until handover.</p>
+  <div class="meta"><div><div class="k">Client</div><div class="v">Care Group</div></div><div><div class="k">Location</div><div class="v">Vadodara, India</div></div><div><div class="k">Sector</div><div class="v">Corporate / Workplace</div></div><div><div class="k">Role</div><div class="v">Interior Designer</div></div><div><div class="k">Scope</div><div class="v">Design to Handover</div></div></div>
+</header>
+<section class="block">
+  <div class="block-head">
+    <h2><span class="num">01</span>Second Floor: Conference &amp; Recreation Hub</h2>
+    <div><p>An open industrial shell reimagined as the social core of the office. The client asked for a conference area as the centre of attraction with seating for ten, a lounge, a play zone (carrom, table tennis, chess), a fully equipped gym, a pantry, and two shower rooms, with all-glass partitions and no civil changes. The conference zone is defined by a blue carpet inlay referencing the company logo, framed by glass partitions spanning the existing MS columns, with wooden-texture tile flooring (4 x 2 ft) throughout and the original windows and skylights preserved for daylight.</p><div class="tags"><span class="tag">Space Planning</span><span class="tag">2D &amp; 3D Drawings</span><span class="tag">Material Palette</span><span class="tag">Site Supervision</span><span class="tag">Glass Partitions</span></div></div>
+  </div>
+  <div class="imgs two"><figure><img src="assets/corp_1.jpg" alt="Proposed 3D views for the second floor and on-site execution of the conference, gym, and play areas" loading="lazy"><figcaption>Proposed 3D views for the second floor and on-site execution of the conference, gym, and play areas</figcaption></figure><figure><img src="assets/corp_2.jpg" alt="Client brief, my role, furniture layout, and the existing second-floor structure before fit-out" loading="lazy"><figcaption>Client brief, my role, furniture layout, and the existing second-floor structure before fit-out</figcaption></figure></div>
+</section>
+<section class="block">
+  <div class="block-head">
+    <h2><span class="num">02</span>Individual Working Cabins</h2>
+    <div><p>First-floor working cabins designed around focus and storage: each station pairs an L-shaped work surface with full-height cabinets, a TV unit, and an attached washroom. Furniture is executed in plywood with 1 mm laminate in a white and wood finish, keeping the cabins bright, durable, and easy to maintain. Deliverables ran from the measured cabin plan through 3D views to on-site execution.</p><div class="tags"><span class="tag">Cabin Planning</span><span class="tag">Plywood + Laminate</span><span class="tag">3D Visualization</span><span class="tag">On-site Execution</span></div></div>
+  </div>
+  <div class="imgs"><figure><img src="assets/corp_3.jpg" alt="Proposed cabin plan, 3D views of the individual working stations, and on-site progress" loading="lazy"><figcaption>Proposed cabin plan, 3D views of the individual working stations, and on-site progress</figcaption></figure></div>
+</section>
+<section class="block">
+  <div class="block-head">
+    <h2><span class="num">03</span>Executive Offices: Final Views</h2>
+    <div><p>Three completed executive offices, each with custom-built desks, fluted wood panelling, cove lighting, and backlit world-map feature walls. Lounge corners with statement seating (including a signature yellow leather sofa and framed artwork) soften the work zones, while consistent white-and-walnut joinery ties the three offices into one visual language.</p><div class="tags"><span class="tag">Custom Furniture</span><span class="tag">Cove Lighting</span><span class="tag">Feature Walls</span><span class="tag">FF&amp;E</span></div></div>
+  </div>
+  <div class="imgs two"><figure><img src="assets/corp_4.jpg" alt="Office 1: final views, desk area, meeting zone, and lounge seating" loading="lazy"><figcaption>Office 1: final views, desk area, meeting zone, and lounge seating</figcaption></figure><figure><img src="assets/corp_5.jpg" alt="Office 2: final views with backlit world-map wall and fluted desk fronts" loading="lazy"><figcaption>Office 2: final views with backlit world-map wall and fluted desk fronts</figcaption></figure><figure><img src="assets/corp_6.jpg" alt="Office 3: final views, workstations and lounge corner" loading="lazy"><figcaption>Office 3: final views, workstations and lounge corner</figcaption></figure></div>
+</section>
+<section class="block">
+  <div class="block-head">
+    <h2><span class="num">04</span>Manager's Cabin, Care Group</h2>
+    <div><p>A compact cabin redesigned with minimal civil change around a cool colour palette (pistachio, toffee brown, cream white, wooden brown, slate grey). The working desk doubles as a three-person conference table in a toffee-brown Korean acrylic solid surface, with MDF wall panelling, wooden-texture tile flooring, plywood storage with 1 mm laminate, a single 4-inch POP ceiling layer, a wall-hung temple niche, and a toughened-glass entry. Scope covered measured drawings of the existing site, palette and material presentations, daily site visits, and weekly client reviews.</p><div class="tags"><span class="tag">Korean Solid Surface</span><span class="tag">MDF Panelling</span><span class="tag">Colour Palette</span><span class="tag">Client Presentations</span><span class="tag">Site Visits</span></div></div>
+  </div>
+  <div class="imgs two"><figure><img src="assets/corp_7.jpg" alt="Client requirements, my role, materials, and the existing vs proposed cabin plans" loading="lazy"><figcaption>Client requirements, my role, materials, and the existing vs proposed cabin plans</figcaption></figure><figure><img src="assets/corp_8.jpg" alt="Final views: pistachio task seating, toffee-brown solid-surface desk, and the selected palette" loading="lazy"><figcaption>Final views: pistachio task seating, toffee-brown solid-surface desk, and the selected palette</figcaption></figure></div>
+</section>
+<section class="block">
+  <div class="block-head">
+    <h2><span class="num">05</span>Chairman's Office &amp; Reception</h2>
+    <div><p>The senior-most space in the campus: an 8 x 3 ft working desk for the chairman, a conference table, a TV unit, and a custom award display panel fabricated in MS sheet and rod with a black powder-coat finish. A level change in the floor separates the working zone from the meeting zone, and the adjoining waiting area carries the brand's world-map wallpaper with lounge seating.</p><div class="tags"><span class="tag">Custom Metalwork</span><span class="tag">Floor Level Design</span><span class="tag">Reception Design</span><span class="tag">Brand Integration</span></div></div>
+  </div>
+  <div class="imgs"><figure><img src="assets/corp_9.jpg" alt="Chairman&#x27;s office: CEO desk, conference table, award display panel, and the waiting area" loading="lazy"><figcaption>Chairman's office: CEO desk, conference table, award display panel, and the waiting area</figcaption></figure></div>
+</section>
+
+<section class="cta">
+  <h3>Want to see more?</h3>
+  <p>The complete portfolio, with full-resolution renders, construction drawings, and additional projects, is available as a shared archive.</p>
+  <a class="btn" href="https://drive.google.com/REPLACE_WITH_YOUR_FULL_PORTFOLIO_LINK" target="_blank" rel="noopener">View Full Portfolio Archive</a>
+  <a class="btn ghost" href="internship.html">Next: Internship Projects &rarr;</a>
+</section>
+<footer>
+  <div>&copy; 2026 Dhara Thakkar</div>
+  <div><a href="index.html#contact">Contact</a></div>
+</footer>
+</body>
+</html>
